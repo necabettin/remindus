@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.reminder.odemeler'
+    namespace 'com.remindus.app'
     defaultConfig {
-        applicationId 'com.reminder.odemeler'
+        applicationId 'com.remindus.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

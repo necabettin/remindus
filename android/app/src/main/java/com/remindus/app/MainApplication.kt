@@ -1,4 +1,4 @@
-package com.reminder.odemeler
+package com.remindus.app
 
 import android.app.Application
 import android.content.res.Configuration
