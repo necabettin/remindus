@@ -1,0 +1,102 @@
+{
+  "months": ["January","February","March","April","May","June","July","August","September","October","November","December"],
+
+  "paymentList": {
+    "title": "PAYMENTS",
+    "records": "{{count}} records",
+    "emptyText": "No payments for this month",
+    "emptySubtext": "Tap + to add a payment",
+    "legend": "Tap = paid/unpaid | Long press = edit/delete",
+    "cols": {
+      "amount": "amount",
+      "who": "who",
+      "type": "type",
+      "day": "date",
+      "notes": "notes"
+    },
+    "summary": {
+      "total": "Total",
+      "paid": "Paid",
+      "remaining": "Remaining"
+    },
+    "resetTitle": "Reset Month",
+    "resetMsg": "Mark all payments in {{month}} {{year}} as unpaid?",
+    "resetBtn": "Reset",
+    "cancel": "Cancel",
+    "actionTitle": "Choose Action",
+    "edit": "Edit",
+    "markPaid": "Mark as Paid",
+    "markUnpaid": "Mark as Unpaid",
+    "delete": "Delete"
+  },
+
+  "deleteAlert": {
+    "title": "Delete Payment",
+    "onlyThisMonth": "Only this month",
+    "deleteAll": "Delete all",
+    "deleteConfirm": "delete this payment?"
+  },
+
+  "addEdit": {
+    "newTitle": "New Payment",
+    "editTitle": "Edit Payment",
+    "back": "◄ Back",
+    "amount": "Amount",
+    "amountPlaceholder": "e.g. 750.50",
+    "who": "Who",
+    "whoPlaceholder": "e.g. bank, credit card",
+    "type": "Type",
+    "customTypePlaceholder": "Enter type name",
+    "day": "Day (which day of month?)",
+    "dayPlaceholder": "1 - 31",
+    "notes": "Notes",
+    "notesPlaceholder": "e.g. last installment, auto payment",
+    "save": "SAVE",
+    "update": "UPDATE",
+    "errorAmount": "Enter a valid amount",
+    "errorWho": "Please fill in the Who field",
+    "errorDay": "Enter a valid day (1-31)",
+    "errorType": "Please specify a payment type",
+    "successNew": "Payment saved (repeats every month)",
+    "successEdit": "Payment updated",
+    "successTitle": "Success",
+    "ok": "OK",
+    "error": "Error",
+    "types": {
+      "kk": "Credit",
+      "okul": "School",
+      "dershane": "Tutoring",
+      "sirketPrim": "Bonus",
+      "siteAidat": "HOA",
+      "diger": "Other"
+    }
+  },
+
+  "settings": {
+    "title": "Settings",
+    "back": "◄ Back",
+    "notificationSection": "Notification Settings",
+    "daysBefore": "How many days before?",
+    "daysBeforeDesc": "How many days before the due date to send a reminder.",
+    "daysUnit": "day(s)",
+    "sameDay": "Same Day",
+    "hour": "Hour",
+    "hourDesc": "The hour at which the notification will be sent.",
+    "minute": "Minute",
+    "previewLabel": "Summary",
+    "previewText": "A reminder will be sent {{days}} day(s) before the due date at {{time}}.",
+    "previewTextSameDay": "A reminder will be sent on the due date at {{time}}.",
+    "languageSection": "Language / Dil",
+    "save": "SAVE",
+    "savedTitle": "Saved",
+    "savedMsg": "Settings updated"
+  },
+
+  "notifications": {
+    "channelName": "Payment Reminders",
+    "title": "💰 Payment Reminder",
+    "body": "{{label}} {{who}} - {{type}}: {{amount}} due!",
+    "tomorrow": "Tomorrow",
+    "inDays": "In {{days}} days"
+  }
+}

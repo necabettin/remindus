@@ -1,0 +1,102 @@
+{
+  "months": ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"],
+
+  "paymentList": {
+    "title": "ÖDEMELER",
+    "records": "{{count}} kayıt",
+    "emptyText": "Bu ay için ödeme yok",
+    "emptySubtext": "+ butonuna basarak ödeme ekleyin",
+    "legend": "Dokunun = ödendi/ödenmedi | Basılı tutun = düzenle/sil",
+    "cols": {
+      "amount": "miktar",
+      "who": "kim",
+      "type": "tip",
+      "day": "tarih",
+      "notes": "not"
+    },
+    "summary": {
+      "total": "Toplam",
+      "paid": "Ödenen",
+      "remaining": "Kalan"
+    },
+    "resetTitle": "Ayı Sıfırla",
+    "resetMsg": "{{month}} {{year}} tüm ödemeler \"ödenmedi\" yapılsın mı?",
+    "resetBtn": "Sıfırla",
+    "cancel": "İptal",
+    "actionTitle": "İşlem Seçin",
+    "edit": "Düzenle",
+    "markPaid": "Ödendi Yap",
+    "markUnpaid": "Ödenmedi Yap",
+    "delete": "Sil"
+  },
+
+  "deleteAlert": {
+    "title": "Ödeme Sil",
+    "onlyThisMonth": "Sadece bu ay",
+    "deleteAll": "Tümüyle sil",
+    "deleteConfirm": "silinsin mi?"
+  },
+
+  "addEdit": {
+    "newTitle": "Yeni Ödeme",
+    "editTitle": "Ödeme Düzenle",
+    "back": "◄ Geri",
+    "amount": "Miktar (TL)",
+    "amountPlaceholder": "örn: 750,50",
+    "who": "Kim",
+    "whoPlaceholder": "örn: garanti, işbank, yk",
+    "type": "Tip",
+    "customTypePlaceholder": "Tip adı girin",
+    "day": "Gün (Ayın kaçında?)",
+    "dayPlaceholder": "1 - 31",
+    "notes": "Not",
+    "notesPlaceholder": "örn: son taksit, otomatik ödeme vb.",
+    "save": "KAYDET",
+    "update": "GÜNCELLE",
+    "errorAmount": "Geçerli bir miktar girin",
+    "errorWho": "Kim alanını doldurun",
+    "errorDay": "Geçerli bir gün girin (1-31)",
+    "errorType": "Ödeme tipini belirtin",
+    "successNew": "Ödeme kaydedildi (her ay tekrarlanır)",
+    "successEdit": "Ödeme güncellendi",
+    "successTitle": "Başarılı",
+    "ok": "Tamam",
+    "error": "Hata",
+    "types": {
+      "kk": "KK",
+      "okul": "Okul",
+      "dershane": "Dershane",
+      "sirketPrim": "Ş.Prim",
+      "siteAidat": "Site",
+      "diger": "Diğer"
+    }
+  },
+
+  "settings": {
+    "title": "Ayarlar",
+    "back": "◄ Geri",
+    "notificationSection": "Bildirim Ayarları",
+    "daysBefore": "Kaç gün önce?",
+    "daysBeforeDesc": "Ödeme tarihinden kaç gün önce hatırlatma gönderilsin.",
+    "daysUnit": "gün",
+    "sameDay": "Aynı Gün",
+    "hour": "Saat",
+    "hourDesc": "Bildirimin gönderileceği saat.",
+    "minute": "Dakika",
+    "previewLabel": "Özet",
+    "previewText": "Ödeme tarihinden {{days}} gün önce, saat {{time}}'de bildirim gönderilir.",
+    "previewTextSameDay": "Ödeme gününde saat {{time}}'de bildirim gönderilir.",
+    "languageSection": "Dil / Language",
+    "save": "KAYDET",
+    "savedTitle": "Kaydedildi",
+    "savedMsg": "Ayarlar güncellendi"
+  },
+
+  "notifications": {
+    "channelName": "Ödeme Hatırlatıcıları",
+    "title": "💰 Ödeme Hatırlatması",
+    "body": "{{label}} {{who}} - {{type}}: {{amount}} TL ödemeniz var!",
+    "tomorrow": "Yarın",
+    "inDays": "{{days}} gün sonra"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reminder_app2",
-    "slug": "reminder_app2",
+    "name": "Remindus",
+    "slug": "remindus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,8 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": false,
+      "package": "com.reminder.odemeler",
+      "permissions": ["RECEIVE_BOOT_COMPLETED", "SCHEDULE_EXACT_ALARM"]
     },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#C0392B"
+        }
+      ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }
