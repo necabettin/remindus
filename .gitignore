@@ -23,6 +23,7 @@ android/local.properties
 *.p8
 *.p12
 *.key
+*.keystore
 *.mobileprovision
 !android/app/debug.keystore
 
